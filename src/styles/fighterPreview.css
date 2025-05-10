@@ -25,11 +25,21 @@
 }
 
 .fighter-preview___list {
+  margin: 20px;
   list-style-type: none;
-  color: #f8f9f4;
+  color: #5a3918;
+  font-family: 'Arial Black';
   padding: 10px;
   margin: 0;
-  background-color: #1a1a1a;
-  border: 2px solid #4d4d4d;
-
+  background: #ffdfa7;
+  border: 5px solid #ca9650;
+  /*background-color: #1a1a1a;
+  border: 2px solid #4d4d4d;*/
+}
+.fighter-preview___list li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ca9650;
+}
+.fighter-preview___list li:last-child {
+  border-bottom: none; /* Видаляємо межу для останнього елемента */
 }
