@@ -1,13 +1,45 @@
 .fighter-preview___root {
   display: flex;
-  flex-direction: column;
-  flex-basis: 250px;
+  align-items: center;
+  flex-basis: 350px;
 }
 
+
 .fighter-preview___right {
-  align-items: flex-end;
+  justify-content: flex-start;
 }
 
 .fighter-preview___left {
-  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+
+.fighter-preview___right img {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+
+}
+
+.fighter-preview___img{
+  height:300px;
+}
+
+.fighter-preview___list {
+  margin: 20px;
+  list-style-type: none;
+  color: #5a3918;
+  font-family: 'Arial Black';
+  padding: 10px;
+  margin: 0;
+  background: #ffdfa7;
+  border: 5px solid #ca9650;
+  /*background-color: #1a1a1a;
+  border: 2px solid #4d4d4d;*/
+}
+.fighter-preview___list li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ca9650;
+}
+.fighter-preview___list li:last-child {
+  border-bottom: none; /* Видаляємо межу для останнього елемента */
 }
